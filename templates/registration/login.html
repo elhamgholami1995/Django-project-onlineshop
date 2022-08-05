@@ -1,5 +1,12 @@
+{% extends '_base.html' %}
+{% load crispy_forms_filters %}
+
+{% block tilte %} LOG IN {% endblock %}
+
+{% block content %}
 <form action="" method="post">
      {% csrf_token %}
-    {{ form.as_p }}
+    {{ form|crispy }}
     <input type="submit" value="login">
 </form>
+{% endblock %}
