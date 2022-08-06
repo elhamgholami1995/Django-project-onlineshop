@@ -37,10 +37,23 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'crispy_forms',
+    'allauth',
+    'allauth.account',
 
     'accounts',
     'pages',
 ]
+
+SITE_ID = 1
+
+AUTHENTICATION_BACKENDS = [
+    'django.contrib.auth.backends.ModelBackend',
+    # `allauth` specific authentication methods, such as login by e-mail
+    'allauth.account.auth_backends.AuthenticationBackend',
+]
+
+EMAIL_BACKEND = 'django.core.mail.backend.console.EmailBackends'
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -134,3 +147,6 @@ LOGOUT_REDIRECT_URL = 'home'
 
 # # crispy forms setting
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
+# all auth setting
+ACCOUNT_SESSION_REMEMBER = True
