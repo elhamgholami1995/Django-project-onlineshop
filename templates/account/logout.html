@@ -4,9 +4,12 @@
 {% block tilte %} LOG OUT {% endblock %}
 
 {% block content %}
-<form action="" method="post">
-     {% csrf_token %}
-    {{ form|crispy }}
-    <input type="submit" value="log out">
-</form>
+<h1> LOG OUT </h1>
+    <h2>
+    are you sure you want to log out?
+    </h2>
+    <form action="" method="post">
+    {% csrf_token %}
+    <input type="submit" value="yes,sure">
+    </form>
 {% endblock%}
