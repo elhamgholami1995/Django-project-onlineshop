@@ -1,0 +1,83 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-08 17:46+0430\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: .\models.py:29
+msgid "very bad"
+msgstr "خیلی بد"
+
+#: .\models.py:30
+msgid "bad"
+msgstr "بد"
+
+#: .\models.py:31
+msgid "normal"
+msgstr "معمولی"
+
+#: .\models.py:32
+msgid "good"
+msgstr "خوب"
+
+#: .\models.py:33
+msgid "perfect"
+msgstr "عالی"
+
+#: .\models.py:36
+msgid "comment text"
+msgstr "متن دیدگاه"
+
+#: .\models.py:37
+msgid "what is your score?"
+msgstr "امتیاز شما به این محصول کدام است؟"
+
+#: .\templates\products\product_detail.html:19
+msgid "product details of"
+msgstr "جزئیات محصول"
+
+#: .\templates\products\product_detail.html:44
+#: .\templates\products\product_detail.html:46
+msgid "$"
+msgstr "تومان"
+
+#: .\templates\products\product_detail.html:57
+msgid "add to cart"
+msgstr "اضافه به سبد خرید"
+
+#: .\templates\products\product_detail.html:61
+msgid "Category"
+msgstr "دسته بندی ها"
+
+#: .\templates\products\product_detail.html:62
+msgid "dress"
+msgstr "لباس"
+
+#: .\templates\products\product_detail.html:63
+msgid "summer"
+msgstr "تابستانی"
+
+#: .\templates\products\product_detail.html:64
+msgid "hot"
+msgstr "گرم"
+
+#: .\templates\products\product_detail.html:65
+msgid "feminine"
+msgstr "زنانه"
+
+#: .\templates\products\product_detail.html:161
+msgid "write your comment"
+msgstr "نظر خود را بنویسید"
