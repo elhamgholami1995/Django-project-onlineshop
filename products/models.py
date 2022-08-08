@@ -33,3 +33,6 @@ class Comment(models.Model):
     datetime_modified = models.DateTimeField(auto_now=True)
     active = models.BooleanField(default=True)
     product = models.ForeignKey(Product, on_delete=models.CASCADE, related_name='comments')
+
+    def get_absolute_url(self):
+        return reverse('product_detail', args=[self.product.id])
